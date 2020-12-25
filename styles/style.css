@@ -1,0 +1,207 @@
+body {
+  margin: 0px;
+}
+
+h1 {
+  margin: 0px;
+  color: white;
+}
+
+.header {
+  background-color: #CCCCFF;
+  justify-content: center;
+  height: 80px;
+  display: flex;
+}
+.header-title {
+  color: white;
+  font-size: 50px;
+  margin: auto;
+  font-family: "Russo One", sans-serif;
+  text-shadow: white 1px 0 10px;
+}
+
+.cardContainer {
+  background-color: whitesmoke;
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+.cardContainer-card1 {
+  width: 676px;
+  height: 450px;
+  margin: 100px 20px 0px 0px;
+  background-image: url(../assets/WX20201216-182350.png);
+  background-size: cover;
+  overflow: hidden;
+  box-shadow: 1px 3px 10px 1px;
+  border-radius: 0.5em;
+  position: relative;
+  transition: all 0.3s ease;
+  flex: none;
+}
+.cardContainer-card1:hover {
+  box-shadow: 2px 4px 11px 2px;
+  transform: translateX(-5px) translateY(-5px);
+}
+.cardContainer-card1_icon {
+  height: 22px;
+  width: 63px;
+  background-color: white;
+  position: absolute;
+  right: 40px;
+  top: 40px;
+  justify-content: center;
+  display: flex;
+  border-radius: 0.3em;
+}
+.cardContainer-card1_icon-title {
+  margin: auto;
+  padding: 0;
+}
+.cardContainer-card1_button {
+  position: absolute;
+  background-color: blue;
+  width: 130px;
+  height: 40px;
+  right: 40px;
+  bottom: 40px;
+  border-radius: 50em;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+}
+.cardContainer-card1_button-name {
+  color: white;
+  margin: auto;
+  font-size: 1em;
+}
+.cardContainer-card1_button:hover {
+  cursor: pointer;
+  box-shadow: 1px 1px 5px 1px;
+  transform: translateX(-1px) translateY(-1px);
+}
+.cardContainer-card1_content {
+  position: absolute;
+  bottom: 50px;
+  left: 40px;
+  color: white;
+  width: 300px;
+  height: 90px;
+}
+.cardContainer-card1_content-date {
+  font-size: 1.3em;
+  color: #adad6e;
+}
+.cardContainer-card1_content-position {
+  font-size: 50px;
+  position: absolute;
+  bottom: 0px;
+}
+.cardContainer-card1_mask {
+  position: absolute;
+  font-size: 20em;
+  left: -200px;
+  bottom: -70px;
+  color: white;
+  opacity: 0.1;
+}
+.cardContainer-card2 {
+  height: 400px;
+  width: 340px;
+  border-radius: 0.5em;
+  overflow: hidden;
+  margin: 100px 20px 0px 0px;
+  box-shadow: 1px 3px 10px 1px;
+  position: relative;
+  transition: all 0.3s ease;
+  flex: none;
+}
+.cardContainer-card2:hover {
+  box-shadow: 2px 4px 11px 2px;
+  transform: translateX(-5px) translateY(-5px);
+}
+.cardContainer-card2_image {
+  width: 340px;
+  height: 185px;
+  background-image: url(../assets/bg-3.png);
+  background-size: cover;
+  position: relative;
+}
+.cardContainer-card2_image_icon {
+  width: 60px;
+  height: 20px;
+  background-color: red;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  border-radius: 0.3em;
+  display: flex;
+  justify-content: center;
+}
+.cardContainer-card2_image_icon--title {
+  color: white;
+  margin: auto;
+  font-size: 12px;
+}
+.cardContainer-card2_text {
+  width: 340px;
+  height: 215px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  background-color: white;
+}
+.cardContainer-card2_text_content {
+  width: 290px;
+  height: 180px;
+  overflow: hidden;
+  margin-top: 25px;
+}
+.cardContainer-card2_text_content h1 {
+  color: black;
+  margin: 0px;
+  font-size: 25px;
+}
+.cardContainer-card2_text_content p {
+  font-size: 17px;
+  line-height: 1.4em;
+  margin: 10px 0px 0px 0px;
+}
+.cardContainer-card2_text_button {
+  width: 130px;
+  height: 40px;
+  background-color: blue;
+  border-radius: 100em;
+  position: absolute;
+  bottom: 40px;
+  display: flex;
+  justify-content: center;
+  z-index: 100;
+}
+.cardContainer-card2_text_button--title {
+  color: white;
+  margin: auto;
+  font-size: 16px;
+}
+.cardContainer-card2_text_button:hover {
+  cursor: pointer;
+  box-shadow: 1px 1px 5px 1px;
+  transform: translateX(-1px) translateY(-1px);
+}
+.cardContainer-card2_mask {
+  width: 340px;
+  height: 225px;
+  position: absolute;
+  background: linear-gradient(rgba(255, 255, 255, 0), white);
+  bottom: 15px;
+}
+
+.footer {
+  background-color: white;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Russo One", sans-serif;
+}
+
+/*# sourceMappingURL=style.css.map */
